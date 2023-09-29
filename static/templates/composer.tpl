@@ -87,6 +87,12 @@
 					</li>
 					<!-- ENDIF privileges.upload:post:file -->
 
+					<div class="anonymous-button-container">
+						<strong class="anonymous-label">Anonymous Post?</strong>
+						<input type = "checkbox" id="check">
+						<label for="check" class="anonymous-button"></label>
+					</div>
+
 					<form id="fileForm" method="post" enctype="multipart/form-data">
 						<input type="file" id="files" name="files[]" multiple class="gte-ie9 hide"/>
 					</form>
